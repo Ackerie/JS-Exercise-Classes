@@ -9,7 +9,7 @@
 
 // EXAMPLE SOLUTION CODE:
 class Airplane {
-  constructor(name) {
+  constructor(name, age) {
     this.name = name;
     this.isFlying = false;
   }
@@ -41,8 +41,20 @@ class Airplane {
 */
 
 class Person {
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+    this.stomach = [];
+    }
+    
+    eat(someFood){
+      if(this.stomach.length === 10){
+        return "No Effect"
+      } else 
+    }
 
 }
+
 
 /*
   TASK 2
